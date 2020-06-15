@@ -30,6 +30,7 @@ permalink: /:title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: IN
+search: True
 
 include:
   - _pages
@@ -58,7 +59,7 @@ plugins:
 author:
   name   : "Pratiksha Jain"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Aiming for the stars."
+  bio    : "Aiming for the Stars."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -80,8 +81,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
-      related: true
+
   # _pages
   - scope:
       path: "_pages"
@@ -93,3 +93,15 @@ defaults:
 tag_archive:
   type: liquid
   path: /tags/
+
+feature_row: 
+    {% for post in site.posts %}
+  - image_path: {{ post.image_path }}
+    alt: "customizable"
+    title: {{ post.title }}
+    excerpt: "Something."
+    url: "/{{ post.title }}"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+    {% endfor %}
+    
