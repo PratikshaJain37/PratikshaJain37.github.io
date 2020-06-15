@@ -3,10 +3,11 @@ title: "Random Solutions"
 # last_modified_at: 2016-03-09T16:20:02-05:00
 tags:
   - python
-imagepath: "{{ site.url }}{{ site.baseurl }}/assets/images/NAME.jpg"
+imagepath: "/assets/images/randomsol.jpg"
+description: 'Hello'
 ---
 <!--image-->
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NAME.jpg" alt="">
+<img src="{{ page.imagepath }}" alt="">
 
 <!--background-->
 

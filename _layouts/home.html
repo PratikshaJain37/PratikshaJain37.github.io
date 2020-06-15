@@ -1,0 +1,25 @@
+---
+layout: archive
+permalink: '/'
+author_profile: true
+---
+
+<div class='container'>
+<div class="row">
+    {% for post in site.posts %}
+    <div class="column">
+        <div class="card">
+            <img class="card-img-top" src="{{ post.imagepath }}" height=250 width=250>
+            <div class="card-body">
+                <h5 class="card-title">{{ post.title }}</h5>
+                <p class="card-text">{{ post.excerpt | truncate: 160 }} }}...</p>
+                <a href="/{{ post.title | slugify }}"
+                class="btn btn-primary">
+                    Read More
+                </a>
+            </div>
+        </div>    
+    </div>
+    {% endfor %}
+</div>
+</div>

@@ -29,7 +29,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: IN
+timezone: 'IN'
 search: True
 
 include:
@@ -94,14 +94,3 @@ tag_archive:
   type: liquid
   path: /tags/
 
-feature_row: 
-    {% for post in site.posts %}
-  - image_path: {{ post.image_path }}
-    alt: "customizable"
-    title: {{ post.title }}
-    excerpt: "Something."
-    url: "/{{ post.title }}"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-    {% endfor %}
-    

@@ -6,10 +6,11 @@ tags:
   - decryption
   - python
   - flask
-imagepath: "{{ site.url }}{{ site.baseurl }}/assets/images/cypher.jpg"
+imagepath: "/assets/images/cypher.jpg"
+description: 'Hello'
 ---
 <!--image-->
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/cypher.jpg" alt="">
+<img src="{{ page.imagepath }}" alt="">
 
 <!--background-->
 Ever since I was a little kid, I've always been enthralled by puzzles; be it the Sudokus featured daily in newspapers, or the multitude of brain teaser apps that came and went on my phone.
