@@ -1,13 +1,16 @@
 ---
-title: ""
+title: "TITLE"
 # last_modified_at: 2016-03-09T16:20:02-05:00
 tags:
-  - python
+  - TAG
+imagepath: "/assets/images/PATH.jpg"
+description: 'Hello'
 ---
 <!--image-->
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NAME.jpg" alt="">
+<img src="{{ page.imagepath }}" alt="">
 
 <!--background-->
+Content
 
 <h3> Aim: </h3>
 

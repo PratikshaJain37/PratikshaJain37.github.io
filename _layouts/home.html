@@ -12,8 +12,8 @@ author_profile: true
             <img class="card-img-top" src="{{ post.imagepath }}" height=250 width=250>
             <div class="card-body">
                 <h5 class="card-title">{{ post.title }}</h5>
-                <p class="card-text">{{ post.excerpt | truncate: 160 }} }}...</p>
-                <a href="/{{ post.title | slugify }}"
+                <p class="card-text">{{ post.description | truncate: 160 }}...</p>
+                <a href="/{{ post.url }}"
                 class="btn btn-primary">
                     Read More
                 </a>
