@@ -13,7 +13,7 @@ author_profile: true
             <div class="card-body">
                 <h5 class="card-title">{{ post.title }}</h5>
                 <p class="card-text">{{ post.description | truncate: 160 }}...</p>
-                <a href="/{{ post.url }}"
+                <a href="{{ site.url }}/{{ post.url }}"
                 class="btn btn-primary">
                     Read More
                 </a>
