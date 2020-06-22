@@ -50,6 +50,6 @@ The document aims to print all your comments and also tell you where (line numbe
 
 
 Find the repository here: 
-<a href="https://github.com/PratikshaJain37/document-this.py">
+<a href="https://github.com/PratikshaJain37/document-this">
 <img src="{{ site.url }}/assets/images/github.png" height='40' width='40' alt="">
 </a> 
