@@ -1,32 +1,33 @@
 ---
 title: "Random Solutions"
-# last_modified_at: 2016-03-09T16:20:02-05:00
 tags:
   - python
+  - c++
+  - competitive coding
 imagepath: "/assets/images/randomsol.jpg"
-description: 'Hello'
+description: 'Learning New Algorithms'
 ---
 <!--image-->
 <img src="{{ page.imagepath }}" alt="">
 
 <!--background-->
+Alvin Toffler once said "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn."
 
-<h3> Aim: </h3>
+This repository is dedicated to my quest for knowledge, and being able to learn new techniques (and their application). 
 
-<h3> Progress: </h3>
+A lot of my earlier scripts used naive approaches, and I hope I can keep evolving to better ones.
+
+### Aim: ### 
+To learn new algorithms, and implement them in both C++ and Python
+
+### Progress: ### 
 <ul> 
-
+<li> Solving questions from CodeChef and CodeForces </li>
+<li> Learnt Greedy Algorithm </li>
+<li> Learnt Binary Exponentiation </li>
 </ul>
-
-<h3> Future Plans: </h3>
-<ul>
-
-</ul>
-
-<h3> Technology Used: </h3>
-<ul>
-
-</ul>
-
-
-<h3> Deployment: </h3>
+<br>
+Find the repository here: 
+<a href="https://github.com/PratikshaJain37/random-solutions">
+<img src="{{ site.url }}/assets/images/github.png" height='40' width='40' alt="">
+</a> 
