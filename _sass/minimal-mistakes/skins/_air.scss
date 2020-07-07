@@ -3,10 +3,10 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #eeeeee !default;
+$background-color: #f5f5ef !default;
 $text-color: #222831 !default;
 $muted-text-color: #393e46 !default;
-$primary-color: #005b80 !default;
+$primary-color: #dcccc0 !default;
 $border-color: mix(#fff, #393e46, 75%) !default;
 $footer-background-color: $primary-color !default;
 $link-color: #393e46 !default;
@@ -21,3 +21,5 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 .page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
 }
+
+// ba964b

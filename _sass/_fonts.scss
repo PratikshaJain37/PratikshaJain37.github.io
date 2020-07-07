@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'glacial_indifferencebold';
+    src: url('fonts/glacialindifference-bold-webfont.woff2') format('woff2'),
+         url('fonts/glacialindifference-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'glacial_indifferenceitalic';
+    src: url('fonts/glacialindifference-italic-webfont.woff2') format('woff2'),
+         url('fonts/glacialindifference-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('fonts/glacialindifference-regular-webfont.woff2') format('woff2'),
+         url('fonts/glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Chnaging fonts where needed */
+.greedy-nav {
+    font-family: 'glacial_indifferenceregular';
+}
+
+.site-title{
+    font-family: 'glacial_indifferenceregular';
+    font-size: x-large;
+}
+
+.sidebar .author__name {
+    font-family: 'glacial_indifferenceregular';
+}
+
+.sidebar p {
+    font-family: 'glacial_indifferenceitalic';
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
