@@ -34,3 +34,8 @@ Content
 </ul>
 
 ### Deployment: ###
+
+Find the repository here: 
+<a href="https://github.com/PratikshaJain37/cypher-decypher">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/github.png" height='40' width='40' alt="">
+</a> 
