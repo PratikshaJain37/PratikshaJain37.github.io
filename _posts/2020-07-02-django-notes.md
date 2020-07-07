@@ -6,10 +6,10 @@ tags:
   - notes
   - python
 imagepath: "/assets/images/django-notes.jpg"
-description: 'Hello'
+description: 'A simple, clean Notes WebApp'
 ---
 <!--image-->
-<img src="{{ page.imagepath }}" alt="">
+<img src="{{ page.imagepath | relative_url }}" alt="" height="400" width="400">
 
 <!--background-->
 The notes app in my phone is full of little nuggets of  gold: long forgotten phone numbers, shopping lists dictated in the car, passwords of sites that I would never use. 

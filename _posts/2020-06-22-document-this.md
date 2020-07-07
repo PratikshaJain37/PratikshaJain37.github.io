@@ -8,7 +8,7 @@ imagepath: "/assets/images/document-this.jpg"
 description: 'Making documentation easier'
 ---
 <!--image-->
-<img src="{{ page.imagepath }}" alt="">
+<img src="{{ page.imagepath | relative_url }}" alt="" height="400" width="400">
 
 <!--background-->
 One problem that I encountered (as all new coders do), is documenting my work. Initially, I would write a rough pseudocode on paper, and implement it. Naively, I would forget to actually document it, and assumed that I would remember what I did for eternity.

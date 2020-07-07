@@ -5,11 +5,11 @@ tags:
   - decryption
   - python
   - flask
-imagepath: "/assets/images/cypher.jpg"
+imagepath: "/assets/images/cypher-decypher.jpg"
 description: 'Encoding and decoding data using different ciphertexts'
 ---
 <!--image-->
-<img src="{{ page.imagepath }}" alt="">
+<img src="{{ page.imagepath | relative_url }}" alt="" height="400" width="400">
 
 <!--background-->
 Ever since I was a little kid, I've always been enthralled by puzzles; be it the Sudokus featured daily in newspapers, or the multitude of brain teaser apps that came and went on my phone.
