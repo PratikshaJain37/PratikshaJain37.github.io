@@ -5,13 +5,13 @@ tags:
   - documentation
   - hacks
 imagepath: "/assets/images/document-this.jpg"
-description: 'Giving a template for documentation'
+description: 'Making documentation easier'
 ---
 <!--image-->
 <img src="{{ page.imagepath }}" alt="">
 
 <!--background-->
-One problem that I encountered (as all new coders do), is documenting my work. Generally, I would write a rough pseudocode on paper, and implement it. I would forget to actually document it, and assumed that I would remember what I did for eternity.
+One problem that I encountered (as all new coders do), is documenting my work. Initially, I would write a rough pseudocode on paper, and implement it. Naively, I would forget to actually document it, and assumed that I would remember what I did for eternity.
 
 Of course, we all know what happened.
 
@@ -26,6 +26,8 @@ I ended up writing a python script to help me write the documentation for any co
 It is an ambitious script which gives a template of your python code for easier documentation.
 
 The document aims to print all your comments and also tell you where (line number) you have used For/While loops, Try/Except/Else statement blocks, If/Elif/Else statement blocks, where you have called which function etc.
+
+This way, you can easily piece together and explain the logic used. 
 
 ### Progress: ###
 <ul> 
@@ -45,7 +47,7 @@ The document aims to print all your comments and also tell you where (line numbe
 
 ### Technology Used: ###
 <ul> 
-<li> Basic Python </li>
+<li> Python </li>
 </ul>
 
 
