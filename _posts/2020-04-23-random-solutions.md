@@ -4,7 +4,7 @@ tags:
   - python
   - c++
   - competitive coding
-imagepath: "/assets/images/randomsol.jpg"
+imagepath: "/assets/images/random-sol.jpg"
 description: 'Learning New Algorithms'
 ---
 <!--image-->

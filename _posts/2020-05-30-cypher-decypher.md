@@ -14,7 +14,7 @@ description: 'Encoding and decoding data using different ciphertexts'
 <!--background-->
 Ever since I was a little kid, I've always been enthralled by puzzles; be it the Sudokus featured daily in newspapers, or the multitude of brain teaser apps that came and went on my phone.
 
-My favourite puzzle, however, will always be decoding little cyphers. I love the idea of sending encrypted messages, and decoding them.
+My favourite puzzle, however, will always be decoding little cyphers. I love the idea of sending encrypted messages, and decoding them. 
 
 ### Aim: ###
 The project aims to both encrypt and decrypt messages, by using a variety of methods.
@@ -32,7 +32,8 @@ The cyphers implemented include:
 <li> Add more mathematically complex cyphers </li>
 <li> Implement fuzzy matching to find keywords </li>
 <li> Use concepts of relative frequency to match more efficiently to answers </li>
-<li> Improve design of page </li>
+<li> Improve design (css) of page </li>
+<li> Add feature for user management - Similar to a password keeper </li>
 </ul>
 
 ### Technology Used: ###
