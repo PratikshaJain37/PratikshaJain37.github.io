@@ -21,12 +21,11 @@ url: https://pratikshajain37.github.io/
 github_username: PratikshaJain37
 minimal_mistakes_skin: air
 
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: /:title
+permalink: :title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: 'IN'
