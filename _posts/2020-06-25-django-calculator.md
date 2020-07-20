@@ -1,11 +1,11 @@
 ---
 title: "Django Calculator"
-# last_modified_at: 2016-03-09T16:20:02-05:00
 tags:
   - django
   - python
   - calculator
   - sql
+  - pythonanywhere
 imagepath: "/assets/images/django-calc.jpg"
 description: 'A basic calculator'
 ---
@@ -15,7 +15,7 @@ description: 'A basic calculator'
 <!--background-->
 This is one of those apps that every 'Beginner Projects for Django' blogs suggest, as it helps in understanding how models, views, forms and html pages work together.  
 
-I ran into a lot of errors while making it, and it really did help me understand how these core basics all work toegther. It also taught me how to Google more efficiently - there was terminology that I hadn't encountered before, and I had to figure out what exactly I wanted. 
+I ran into a lot of errors while making it, and it really did help me understand how these core basics all work together. It also taught me how to Google more efficiently - there was terminology that I hadn't encountered before, and I had to figure out what exactly I wanted. 
 
 ### Aim: ###
 
@@ -26,6 +26,7 @@ To create a basic calculator app which given an input of 1 or 2 numbers, outputs
 <li> The calculator performs the operations coded for successfully </li>
 <li> It displays the results on a separate page, which also shows the last 5 successful operations. </li>
 <li> Validation: It checks for valid numbers, and handles the errors accordingly. (An example of this would be when 2 numbers are provided for the Factorial option - An appropriate message should be shown) </li>
+<li> Successfully deployed on Pythonanywhere </li>
 
 </ul>
 
@@ -44,6 +45,7 @@ To create a basic calculator app which given an input of 1 or 2 numbers, outputs
 </ul>
 
 ### Deployment: ###
+The app has been successfully deployed <a href='http://pratiksha.pythonanywhere.com/'>here.</a>
 
 Find the repository here: 
 <a href="https://github.com/PratikshaJain37/django-basic-calculator">

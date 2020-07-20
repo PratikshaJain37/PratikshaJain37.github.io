@@ -27,8 +27,6 @@ It is an ambitious script which gives a template of your python code for easier 
 
 The document aims to print all your comments and also tell you where (line number) you have used For/While loops, Try/Except/Else statement blocks, If/Elif/Else statement blocks, where you have called which function etc.
 
-This way, you can easily piece together and explain the logic used. 
-
 ### Progress: ###
 <ul> 
 <li> Detected comments and unassigned multiline strings (used as multiline comments) </li>

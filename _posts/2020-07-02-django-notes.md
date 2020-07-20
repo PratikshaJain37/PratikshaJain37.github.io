@@ -5,6 +5,8 @@ tags:
   - django
   - notes
   - python
+  - ckeditor
+  - pythonanywhere
 imagepath: "/assets/images/django-notes.jpg"
 description: 'A simple, clean Notes WebApp'
 ---
@@ -17,12 +19,14 @@ The notes app in my phone is full of little nuggets of  gold: long forgotten pho
 It seems so redundant to not have one for the web; a place to store bookmarks and pictures and paragraphs and quotes, akin to pressing dried flowers between the pages of books.
 
 ### Aim: ###
-To create a Notes App with Django, and deploy it
+To create a Notes App with Django, and deploy it.
 
 ### Progress: ###
 <ul> 
 <li> The database is set up from the admin side </li>
 <li> Basic views have been created </li>
+<li> A rich text editor (CKEditor) has been added. </li>
+<li> Successfully deployed on Pythonanywhere </li>
 
 </ul>
 
@@ -39,7 +43,11 @@ To create a Notes App with Django, and deploy it
 <li> Django </li>
 <li> Python </li>
 <li> Basic Html/CSS </li>
+<li> CKEditor </li>
 </ul>
+
+### Deployment: ###
+The app has been successfully deployed <a href='http://pratikshajain37.pythonanywhere.com/'>here.</a>
 
 Find the repository here: 
 <a href="https://github.com/PratikshaJain37/django-notes">

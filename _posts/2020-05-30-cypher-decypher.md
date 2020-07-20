@@ -5,6 +5,7 @@ tags:
   - decryption
   - python
   - flask
+  - heroku
 imagepath: "/assets/images/cypher-decypher.jpg"
 description: 'Encoding and decoding data using different ciphertexts'
 ---
@@ -25,6 +26,7 @@ The cyphers implemented include:
 <li> Additive Cypher </li>
 <li> Multiplicative Cypher </li>
 <li> Hill Digraph Cypher </li>
+<li> Deployed on Heroku </li>
 </ul>
 
 ### Features To Work On: ###
@@ -44,7 +46,7 @@ The cyphers implemented include:
 
 
 ### Deployment: ###
-It has been successfully deployed on <a href='https://cypher-decypher.herokuapp.com/'>Heroku.</a>
+The app has been successfully deployed <a href='https://cypher-decypher.herokuapp.com/'>here.</a>
 
 Find the repository here: 
 <a href="https://github.com/PratikshaJain37/cypher-decypher">
