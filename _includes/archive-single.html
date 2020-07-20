@@ -31,10 +31,10 @@
       {% endif %}
     </h2>
     {% if post.read_time %}
-      <p class="page__meta">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-clock" aria-hidden="true" ></i>  {% include read-time.html %}</p>
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"  style="padding-left: 20px;"></i>  {% include read-time.html %}</p>
     {% endif %}
     {% if post.description %}
-    <p class="archive__item-excerpt" itemprop="description" style="padding:0px 0px 0px 50px;">{{ post.description | markdownify | strip_html | truncate: 160 }}</p>
+    <p class="archive__item-excerpt" itemprop="description"  style="padding-left: 20px;"> &nbsp; &nbsp; &nbsp; &nbsp;{{ post.description | markdownify | strip_html | truncate: 160 }}</p>
     {% endif %}
   </article>
 </div>

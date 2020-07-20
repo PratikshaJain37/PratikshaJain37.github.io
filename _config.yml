@@ -23,7 +23,6 @@ minimal_mistakes_skin: air
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: :title
 paginate: 5 # amount of posts to show
@@ -54,6 +53,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-sitemap
+
 
 author:
   name   : "Pratiksha Jain"
