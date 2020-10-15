@@ -26,7 +26,6 @@ The cyphers implemented include:
 <li> Additive Cypher </li>
 <li> Multiplicative Cypher </li>
 <li> Hill Digraph Cypher </li>
-<li> Deployed on Heroku </li>
 </ul>
 
 ### Features To Work On: ###

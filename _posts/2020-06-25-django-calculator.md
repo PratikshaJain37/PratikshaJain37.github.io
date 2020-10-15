@@ -35,6 +35,7 @@ To create a basic calculator app which given an input of 1 or 2 numbers, outputs
 <ul>
 <li> Extend for multiple operations </li>
 <li> Provide an option for the number of previous results to be displayed.</li>
+<li> Provide better styling </li>
 
 </ul>
 

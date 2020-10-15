@@ -20,12 +20,6 @@ A lot of my earlier scripts used naive approaches, and I hope I can keep evolvin
 ### Aim: ### 
 To learn new algorithms, and implement them in both C++ and Python
 
-### Progress: ### 
-<ul> 
-<li> Solving questions from CodeChef and CodeForces </li>
-<li> Learnt Greedy Algorithm </li>
-<li> Learnt Binary Exponentiation </li>
-</ul>
 <br>
 Find the repository here: 
 <a href="https://github.com/PratikshaJain37/random-solutions">

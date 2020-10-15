@@ -34,13 +34,7 @@ The document aims to print all your comments and also tell you where (line numbe
 <li> Detected If/Elif/Else Blocks</li>
 <li> Detected Try/Except/Else Blocks </li>
 <li> Detected defining a function </li>
-<li> Detecting calling a self-defined function </li>
-</ul>
-
-### Future Plans: ###
-<ul>
-<li> Work on the bugs identified until now </li>
-
+<li> Detected calling a self-defined function </li>
 </ul>
 
 ### Technology Used: ###
