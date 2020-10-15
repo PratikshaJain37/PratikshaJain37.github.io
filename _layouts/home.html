@@ -5,9 +5,9 @@ author_profile: true
 ---
 
 <div class='container'>
-<div class="row">
+<div class="band">
     {% for post in site.posts %}
-    <div class="column">
+    
         <a href="{{ post.url }}">
         <div class="card">
             
@@ -18,7 +18,8 @@ author_profile: true
             </div>
         </div> 
         </a>   
-    </div>
+   
     {% endfor %}
+
 </div>
 </div>
